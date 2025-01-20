@@ -3,8 +3,18 @@ canvas {
 }
 
 body {
+    position: relative;
+    color: white;
+    background-color: black;
     height: 97vh;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 2px;
 }
